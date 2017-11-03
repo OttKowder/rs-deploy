@@ -4,7 +4,7 @@ Description: 'Create instances ready for CodeDeploy: Create up to 3 Amazon EC2 i
   This template creates one or more Amazon EC2 instances. You will be billed for the
   AWS resources used if you create a stack from this template.'
 AWSTemplateFormatVersion: '2010-09-09'
-Parameters:
+Parameters:  
   TagKey:
     Description: The tag key that identifies this as a target for deployments.
     Type: String
