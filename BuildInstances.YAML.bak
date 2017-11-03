@@ -8,13 +8,11 @@ Parameters:
   TagKey:
     Description: The tag key that identifies this as a target for deployments.
     Type: String
-    Default: Name
     AllowedPattern: "[\\x20-\\x7E]*"
     ConstraintDescription: Can contain only ASCII characters.
   TagValue:
     Description: The tag value that identifies this as a target for deployments.
     Type: String
-    Default: CFTest
     AllowedPattern: "[\\x20-\\x7E]*"
     ConstraintDescription: Can contain only ASCII characters.
   KeyPairName:
