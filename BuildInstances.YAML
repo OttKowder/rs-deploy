@@ -34,7 +34,7 @@ Parameters:
   InstanceCount:
     Description: Number of Amazon EC2 instances.
     Type: Number
-    Default: '2'
+    Default: '3'
     ConstraintDescription: Must be a number between 1 and 3.
     MinValue: '1'
     MaxValue: '3'
